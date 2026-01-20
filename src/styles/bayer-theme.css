@@ -1,0 +1,94 @@
+/* Bayer Design System Theme - CSS Variables */
+
+:root {
+  /* Primary Colors (Pink/Red) */
+  --lmnt-theme-primary: #de0043;
+  --lmnt-theme-primary-variant: #bf124b;
+  --lmnt-on-primary-base: #ffffff;
+
+  /* Secondary Colors (Blue) */
+  --lmnt-theme-secondary: #00bcff;
+  --lmnt-theme-secondary-variant: #0091df;
+  --lmnt-on-secondary-base: #ffffff;
+
+  /* Surface & Background */
+  --lmnt-theme-surface: #ffffff;
+  --lmnt-theme-surface-variant: #f5f5f5;
+  --lmnt-theme-background: #fafafa;
+  --lmnt-theme-on-surface: #1a1a1a;
+  --lmnt-theme-on-surface-variant: #666666;
+  --lmnt-theme-on-background: #1a1a1a;
+
+  /* Dividers & Borders */
+  --lmnt-theme-divider-primary: #e0e0e0;
+
+  /* Status Colors */
+  --lmnt-theme-danger: #de0043;
+  --lmnt-theme-success: #4caf50;
+  --lmnt-theme-warning: #ff9800;
+}
+
+/* Utility Classes */
+.lmnt-theme-primary {
+  color: var(--lmnt-theme-primary);
+}
+
+.lmnt-theme-primary-bg {
+  background-color: var(--lmnt-theme-primary);
+}
+
+.lmnt-theme-secondary {
+  color: var(--lmnt-theme-secondary);
+}
+
+.lmnt-theme-secondary-bg {
+  background-color: var(--lmnt-theme-secondary);
+}
+
+.lmnt-theme-surface-bg {
+  background-color: var(--lmnt-theme-surface);
+}
+
+.lmnt-theme-surface-variant-bg {
+  background-color: var(--lmnt-theme-surface-variant);
+}
+
+.lmnt-theme-background-bg {
+  background-color: var(--lmnt-theme-background);
+}
+
+.lmnt-theme-on-surface {
+  color: var(--lmnt-theme-on-surface);
+}
+
+.lmnt-theme-on-surface-variant {
+  color: var(--lmnt-theme-on-surface-variant);
+}
+
+.lmnt-theme-on-primary {
+  color: var(--lmnt-on-primary-base);
+}
+
+.lmnt-theme-on-secondary {
+  color: var(--lmnt-on-secondary-base);
+}
+
+.lmnt-theme-divider-primary {
+  border-color: var(--lmnt-theme-divider-primary);
+}
+
+.lmnt-theme-danger {
+  color: var(--lmnt-theme-danger);
+}
+
+.lmnt-theme-danger-bg {
+  background-color: var(--lmnt-theme-danger);
+}
+
+.lmnt-theme-success {
+  color: var(--lmnt-theme-success);
+}
+
+.lmnt-theme-success-bg {
+  background-color: #e8f5e9;
+}
